@@ -1,0 +1,34 @@
+# Environnement virtuel
+venv/
+env/
+
+# Fichiers de configuration d'environnement
+*.env
+*.ini
+
+# Fichiers de cache de Python
+__pycache__/
+*.py[cod]
+
+# Fichiers de log
+*.log
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+
+# Dossiers de dépendances (si utilisés)
+*.egg-info/
+dist/
+build/
+
+# Fichiers générés par l'IDE
+.idea/
+.vscode/
+
+# Dossier contenant les modèles pré-entraînés
+models/
+# Si vous avez des fichiers de données lourds (comme des modèles ou datasets) 
+# qui ne devraient pas être inclus dans le dépôt, ajoutez leurs chemins ici
+*.pt
+*.bin
