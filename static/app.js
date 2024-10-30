@@ -3,11 +3,11 @@ document.getElementById('send-btn').addEventListener('click', function() {
     const textarea = document.getElementById('user-input');
     function formatResponse(response) {
         // Rechercher le texte après "Answer:"
-        const answerIndex = response.indexOf("Answer:");
+        const answerIndex = response.indexOf("Completion:");
         
         // Si "Answer:" est trouvé, extraire la partie après
         if (answerIndex !== -1) {
-            return response.substring(answerIndex + 7).trim(); // Extraire et supprimer les espaces inutiles
+            return response.substring(answerIndex + 11).trim(); // Extraire et supprimer les espaces inutiles
         }
         
         // Si "Answer:" n'est pas trouvé, retourner la réponse telle quelle
