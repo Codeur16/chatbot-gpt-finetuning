@@ -5,7 +5,7 @@ env/
 # Fichiers de configuration d'environnement
 *.env
 *.ini
-
+* .venv
 # Fichiers de cache de Python
 __pycache__/
 *.py[cod]
